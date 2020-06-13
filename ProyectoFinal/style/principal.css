@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    position: inherit;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url('../imagenes/fondo_p.jpg');
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+header{
+    background:rgba(36,40,43,0.95);
+    padding: 10px;
+    min-height: 50px;
+    border-bottom: #5d9b9b 5px solid;
+}
+
+.contenedor{
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor #logo{
+    float: left;
+}
+
+nav{
+    margin: 10px;
+}
+
+.contenedor li{
+    color: #ffffff;
+    display: inline;
+    padding: 15px  15px 0px 65px;
+}
+
+.contenedor li>img{
+    margin: 20px;
+}
+
+section{
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 6px;
+}
+
+section h2{
+    min-height: 40px;
+    margin: auto;
+    padding: 30px;
+    text-align: center;
+    font-family: Verdana,Geneva,sans-serif;
+    font-weight: 500;
+    color: #ffffff;
+    background-color: #5d9b9b;
+    opacity: 0.9;
+    font-size: 30px;
+}
+
+#destacado { color: #FFF; }
+#contenidos { color: #FFF; }
+.nuevos{
+    margin: auto;
+    width: 90%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: inline-block;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.img{
+    width: 300px;
+    height: 200px;
+    margin: 5px;
+    position: relative;
+    overflow: hidden;
+}
+
+.img img{
+    width: 100%;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.img:hover img{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    opacity: 0.8;
+}
+
+.texto{
+    position: absolute;
+    top: 0;
+    width: 300px;
+    z-index: 10;
+    color: white;
+    text-align: center;
+}
+
+.texto p{
+    font-size: 20px;
+    margin-top: 10px;
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.img:hover p{
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+}
+
+.ancla{
+    display: inline-block;
+    padding: 20px;
+    color: #000000;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 3;
+}
+
+.ancla:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    opacity: 0.8;
+}
+
+.imgg{
+    margin: 20px;
+    margin-left: 10px;
+    position: relative;
+    overflow: hidden;
+    display: inline;
+}
+
+.imgg img{
+    width: 40%;
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    margin: 15px;
+}
+
+.imgg:hover img{
+    -webkit-transform: scale(1.06);
+    transform: scale(1.06);
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+    opacity: 0.8;
+}
+
+.texxto{
+    position: absolute;
+    position: absolute;
+    bottom: 120px; right: 20px;
+    width: 300px;
+    z-index: 10;
+    color: white;
+    text-align: center;
+    align-items: center;
+}
+
+.texxto p{
+    position: relative;
+    font-size: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    opacity: 0;
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    -webkit-transition: all 300ms;
+    transition: all 300ms;
+}
+
+.imgg:hover p{
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 500ms;
+    transition: all 500ms;
+}
